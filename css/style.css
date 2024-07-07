@@ -1,0 +1,110 @@
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: 'wdth' 100;
+}
+/* Todo: Added - font family: open sans  */
+
+/* Todo: Common css start */
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.btn {
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 36px;
+    border-radius: 5px;
+    background-color: #fd6e0a;
+}
+/* Todo: Common css end */
+
+/* Todo: Header css start */
+.header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.nav-title > span {
+    color: #fd6e0a;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 50px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    font-weight: 400;
+}
+/* Todo: Header css end */
+
+/* Todo: Banner css start */
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 585px;
+    margin-left: 200px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-style: 85px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.banner-description {
+    font-style: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.banner-profile-pic {
+    width: 580px;
+    margin-right: 40px;
+}
+/* Todo: Banner css end */
