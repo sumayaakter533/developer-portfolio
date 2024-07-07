@@ -7,10 +7,10 @@
 /* Todo: Added - font family: open sans  */
 
 /* Todo: Common css start */
-/* * {
+* {
     padding: 0;
     margin: 0;
-} */
+}
 
 a {
     text-decoration: none;
@@ -35,6 +35,29 @@ li {
     border-radius: 5px;
     background-color: #fd6e0a;
 }
+
+.section-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 30px 0;
+}
+
+.bg-color {
+    background-color: #fff8f3;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* Todo: Common css end */
 
 /* Todo: Header css start */
@@ -49,6 +72,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
+    padding: 50px 0;
 }
 
 .nav-title {
@@ -82,8 +106,9 @@ nav ul li a {
 }
 
 .banner-content {
-    max-width: 585px;
-    margin-left: 200px;
+	max-width: 585px;
+	margin-left: 200px;
+	padding: 115px 0;
 }
 
 .banner-greeting {
@@ -92,15 +117,9 @@ nav ul li a {
 }
 
 .banner-title {
-    font-style: 85px;
+    font-size: 85px;
     font-weight: 700;
     color: #181818;
-}
-
-.banner-description {
-    font-style: 18px;
-    font-weight: 400;
-    color: #757575;
 }
 
 .banner-profile-pic {
@@ -108,3 +127,38 @@ nav ul li a {
     margin-right: 40px;
 }
 /* Todo: Banner css end */
+
+/* Todo: About css start */
+.about {
+    margin: 130px 0;
+    text-align: center;
+    border-radius: 10px;
+    padding: 130px 156px;
+}
+
+.about-border {
+    border: 1px solid #000;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.item-description {
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+    margin: 0;
+}
+
+/* .item-description {
+
+} */
+/* Todo: About css end */
