@@ -143,6 +143,7 @@ nav ul li a {
 
 .about-border {
     border: 1px solid #000;
+    background-color: #fff;
 }
 
 .about-items {
@@ -245,3 +246,56 @@ nav ul li a {
     margin: 50px 0 110px;
 }
 /* Todo: Resume css end */
+
+/* Todo: Footer css start */
+footer {
+    background-color: #fff8f3;
+    padding: 130px 230px;
+    display: flex;
+    gap: 110px;
+}
+
+.footer-description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 20px 0 30px;
+}
+
+.footer-column-1 {
+    width: 50%;
+}
+
+.footer-column-2 {
+    width: 40%;
+}
+
+.footer-links a {
+    margin-right: 24px;
+}
+
+.footer-column-2 form input[type='text'] {
+    margin-top: 28px;
+}
+
+.footer-column-2 form input,
+.footer-column-2 form textarea {
+    width: 100%;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    background-color: #fff;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    display: block;
+    border: none;
+}
+
+.footer-column-2 form textarea {
+    height: 180px;
+    resize: none;
+}
+/* Todo: Footer css end */
