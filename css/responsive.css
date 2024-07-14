@@ -1,0 +1,116 @@
+@media screen and (max-width: 576px) {
+    .skill-container,
+    .resume-container,
+    .about-items,
+    .banner,
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul {
+        align-items: end;
+        gap: 20px;
+    }
+
+    nav {
+        align-items: start;
+        margin: 0 30px;
+        padding: 40px 0;
+    }
+
+    nav ul li {
+        margin-right: 20px;
+    }
+
+    nav ul li:last-child {
+        margin-right: 0px;
+    }
+
+    .nav-title {
+        font-size: 54px;
+        margin-top: -20px;
+    }
+
+    .banner-content .btn {
+        padding: 12px 20px;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .banner-content {
+        margin-left: 80px;
+        padding: 30px;
+        max-width: 100%;
+    }
+
+    .banner-profile-pic {
+        max-width: 90%;
+        margin-right: 0;
+    }
+
+    .banner-title {
+        font-size: 60px;
+    }
+
+    .banner-greeting {
+        font-size: 36px;
+    }
+
+    .about {
+        margin: 50px 0;
+        padding: 50px 30px;
+    }
+
+    .about-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-border {
+        padding: 10px;
+    }
+
+    .skill-container {
+        margin-bottom: 80px;
+    }
+
+    .skill-part > .section-description {
+        padding: 35px 30px;
+    }
+
+    .resume-column {
+        padding: 0 30px;
+    }
+
+    .resume-column-title {
+        padding-top: 30px;
+    }
+
+    .resume-btn {
+        margin: 40px 0 80px;
+    }
+
+    .experience-description {
+        padding-right: 0px;
+    }
+
+    footer {
+        padding: 0px 30px 60px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-column-1 {
+        width: 100%;
+    }
+
+    .footer-column-2 {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .footer-column-2 form input,
+    .footer-column-2 form textarea {
+        width: calc(100% - 60px);
+    }
+}
